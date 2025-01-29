@@ -26,7 +26,10 @@ spice = ModelMeta(
     similarity_fn_name="cosine",
     framework=["Sentence Transformers", "PyTorch"],
     use_instructions=True,
+    adapted_from="BAAI/bge-small-en-v1.5",
     public_training_code=None,
     public_training_data=None,
     training_datasets=None,
+    training_data=False,
+    training_code=False,
 )
